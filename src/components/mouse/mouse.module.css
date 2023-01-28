@@ -1,0 +1,42 @@
+.mouse {
+    display: flex;
+    padding: 15px 5px;
+    border: 2px solid silver;
+    width: 30%;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+  
+.mouseImage {
+    width: 150px;
+    height: 150px;
+}
+  
+.mouseText {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+  
+.mouseTitle {
+    font-size: 24px;
+}
+  
+.mouseInfo {
+    display: flex;
+    flex-direction: column;
+}
+  
+.mousePrice {
+    font-weight: 600;
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 5px;
+}
+  
+.mouseButtons {
+    display: flex;
+    gap: 5px;
+}
